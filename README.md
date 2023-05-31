@@ -13,7 +13,7 @@
       3.  Finally when you run the script the response is fetched from the browser cache.
 
 <img width="1266" alt="Burp" src="https://github.com/Srikanth9410/CORS/assets/36133052/8ac5a7c5-520f-4879-b960-9447d2d75ad1">
-            Observe that the Application has Access-Control-Allow-Origin set to wildcard and Cache-control Header is missing.<br><br><br>
+                  Observe that the Application has Access-Control-Allow-Origin set to wildcard and Cache-control Header is missing.<br><br><br>
 
 <img width="997" alt="CORS" src="https://github.com/Srikanth9410/CORS/assets/36133052/b64315ea-88b8-4064-933b-35ee79add523">
-            Observe that once script is run the response is fetched from the disk space as shown.
+                  Observe that once script is run the response is fetched from the disk space as shown.
