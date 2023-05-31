@@ -9,7 +9,7 @@
  4. Once above conditions are met. it's time to Bypass CORS for Fun.
  5. Explanation of what payload is trying to accomplish?.
       1. we are adding a special header such that the request is served from cache instead of hitting the server.
-      2. If we are adding additional headers such as Authorization preflight OPTIONS request is triggered by the browser to check if the server allows such headers. Feel free to tweak the payload as per your needs.
+      2. If we are adding additional headers such as Authorization, preflight OPTIONS request is triggered by the browser to check if the server allows such headers. Feel free to tweak the payload as per your needs.
       3.  Finally when you run the script the response is fetched from the browser cache.
 
 <img width="1266" alt="Burp" src="https://github.com/Srikanth9410/CORS/assets/36133052/8ac5a7c5-520f-4879-b960-9447d2d75ad1">
